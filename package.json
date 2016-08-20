@@ -1,0 +1,48 @@
+{
+  "name": "ethic-yool-server-api",
+  "version": "1.0.0",
+  "description": "An ethiclabs project - The yool backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm install check-build -g; check-build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https//gitlab.com:ethiclabs/ethic-yool-server-api.git"
+  },
+  "keywords": [
+  	"ethic",
+  	"ethiclabs",
+    "yool",
+    "server",
+    "express",
+    "mongoose"
+  ],
+  "author": "Quentin de Quelen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/ethiclabs/ethic-yool-server-api/issues"
+  },
+  "homepage": "https://gitlab.com/ethiclabs/ethic-yool-server-api#readme",
+  "dependencies": {
+    "apn": "1.7.6",
+    "aws-sdk": "2.3.18",
+    "aws-sdk-promise": "0.0.2",
+    "bcrypt": "0.8.6",
+    "body-parser": "1.15.1",
+    "config": "1.20.4",
+    "cors": "^2.7.1",
+    "easyimage": "2.1.0",
+    "express": "4.13.4",
+    "find-hashtags": "1.0.0",
+    "jsonschema": "1.1.0",
+    "jwt-simple": "0.5.0",
+    "moment": "2.13.0",
+    "morgan": "1.7.0",
+    "multer": "1.1.0",
+    "newrelic": "1.28.0",
+    "node-gcm-service": "0.2.8",
+    "node-ses": "1.2.0",
+    "rethinkdb": "2.3.1"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "checkbuild": {
+    "enable": ["jshint", "jscs", "david"],
+    "continueOnError": true,
+    "allowFailures": false
+  },
+  "jshint": {
+    "args": ["index.js", "src/**/*.js"]
+  },
+  "jscs": {
+    "args": ["index.js", "src/**/*.js"]
+  },
+  "david": {
+    "dev": true,
+    "stable": true,
+    "ignore": []
+  }
+}

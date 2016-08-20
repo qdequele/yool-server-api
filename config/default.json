@@ -1,0 +1,13 @@
+{
+	"databases" : {
+		"rethinkdb": {
+			"host": "localhost",
+			"port": 28015,
+			"authKey": "",
+			"db": "yool"
+		}
+	},
+	"express": {
+		"port": 3000
+	}
+}
