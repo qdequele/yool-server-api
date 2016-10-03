@@ -67,7 +67,7 @@ class AuthHandler {
 						if (data) {
 							resolve(user.id);
 						} else {
-							reject("wrong_password")
+							reject("wrong_password");
 						}
 					})
 					.catch((err) => {

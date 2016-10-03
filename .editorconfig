@@ -10,5 +10,5 @@ trim_trailing_whitespace = true
 # Set default charset
 [*.{js,jsx,json}]
 charset = utf-8
-indent_style = tab
+indent_style = spaces
 indent_size = 2

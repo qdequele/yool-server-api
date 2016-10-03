@@ -610,4 +610,30 @@ class UsersHandler {
 	}
 }
 
+
+
+
+
+
+
+let ParseLogin = () => {
+	return validate.ParseLogin();
+}
+let GetPassword = () => {
+	return Query.GetPassword();
+}
+let GetData = (data) => {
+	return Parser.GetData(data);
+}
+checkAuth()
+      .then(ParseLogin)
+      .then(GetPassword)
+      .then(GetData)
+      .then(comparePass)
+      .then(showSuccess)
+      .catch(showError);
+
+
+
+
 module.exports = UsersHandler;
